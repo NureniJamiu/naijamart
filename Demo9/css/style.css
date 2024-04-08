@@ -18188,12 +18188,12 @@ textarea.form-control.is-invalid {
 }
 
 .slideshow-bg {
-  height: 100%;
+  height: 50%;
 }
 
 .slideshow-bg__img {
   width: 100%;
-  height: 100%;
+  height: 50%;
 }
 
 .slideshow-character__img {

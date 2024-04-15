@@ -21480,8 +21480,7 @@ a.add-to-wishlist.active .flaticon.flaticon-heart {
 .lookbook-collection__item-image img {
   display: block;
   width: 100%;
-  /* height: 100%; */
-  height: 50%;
+  height: 100%;
   object-fit: cover;
 }
 

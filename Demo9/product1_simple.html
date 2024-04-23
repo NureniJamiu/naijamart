@@ -2314,12 +2314,21 @@
             <div class="mb-4">
               <button
                 type="submit"
-                class="btn btn-primary btn-addtocart js-open-aside"
+                class="btn"
+                id="showContactBtn"
                 data-aside="cartDrawer"
-                style="background-color: #e5e7e9; border: 1px solid #368f26"
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  background-color: #e5e7e9;
+                  border: 1px solid #368f26;
+                "
               >
-                <span style="color: #000">PHONE NUMBER:</span>
-                <span style="color: #368f26">+234 803 046 5415</span>
+                <span style="color: #000">Show Contact</span>
+                <span style="display: none" id="contactInfo"
+                  >+2349160258105</span
+                >
               </button>
             </div>
             <div class="product-single__addtolinks">
@@ -5168,6 +5177,14 @@
     <script src="js/plugins/swiper.min.js"></script>
     <script src="js/plugins/countdown.js"></script>
     <script src="js/plugins/jquery.fancybox.js"></script>
+    <script>
+      var contactInfo = "+2349160258105";
+      document
+        .getElementById("showContactBtn")
+        .addEventListener("click", function () {
+          document.getElementById("showContactBtn").textContent = contactInfo;
+        });
+    </script>
 
     <!-- Footer Scripts -->
     <script src="js/theme.js"></script>

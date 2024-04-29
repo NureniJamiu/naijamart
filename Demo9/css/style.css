@@ -17161,6 +17161,15 @@ textarea.form-control.is-invalid {
   line-height: 1.5em;
 }
 
+.auth-bg {
+  /* background-color: #f8f8f8; */
+  padding: 0 1em;
+}
+
+.auth-bg:hover {
+  background-color: #dcdcdc;
+}
+
 .menu-link_us-s:after {
   content: "";
   display: block;
@@ -17179,11 +17188,11 @@ textarea.form-control.is-invalid {
 
 .default-menu {
   position: absolute;
-  top: calc(100% + 0.75rem);
+  top: calc(100% - 4em);
   left: 0;
-  width: 16.25rem;
-  padding: 1.5rem 1.875rem 1rem;
-  background-color: #ffffff;
+  width: 12.25rem;
+  padding: 0.01rem 1.875rem 1rem;
+  background-color: #fbfbf9;
   box-shadow: 0 0.625rem 1.5625rem 0 rgba(20, 31, 70, 0.05);
   z-index: 1000;
   transition: all 0.28s;
@@ -17191,6 +17200,7 @@ textarea.form-control.is-invalid {
   visibility: hidden;
   pointer-events: none;
 }
+
 .navigation__item:hover .default-menu {
   top: 100%;
   opacity: 1;
@@ -17466,6 +17476,7 @@ textarea.form-control.is-invalid {
 .header_sticky-bg_dark .box-menu a,
 .header_sticky-bg_dark .default-menu a {
   color: #010101;
+  background-color: grey;
 }
 
 .header-top.bordered {
